@@ -6,17 +6,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
-import com.udacity.gradle.builditbigger.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MainActivityFragment extends Fragment {
+public class PaidMainActivityFragment extends Fragment {
 
 
-    public MainActivityFragment() {
+    public PaidMainActivityFragment() {
         // Required empty public constructor
     }
 
