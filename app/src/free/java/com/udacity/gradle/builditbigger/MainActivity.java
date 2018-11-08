@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "doInBackground: " + message);
                 return myApiService.sayHi(joke).execute().getData();
             } catch (IOException e) {
-                return e.getMessage();
+                return "";
             }
         }
 
